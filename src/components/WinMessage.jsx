@@ -5,7 +5,7 @@ const WinMessage = ({ moves, score, onReset }) => {
     <div className="win-message">
       <h2>Congratulations🎉</h2>
       <p>
-        you have completed the games in {moves} moves!
+        you have completed the game in {moves} moves!
         {/* <strong>Score:</strong> {score} • <strong>Moves:</strong> {moves} */}
       </p>
     </div>
